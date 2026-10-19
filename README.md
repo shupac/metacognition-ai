@@ -1,7 +1,19 @@
 # Metacognition & AI
 
-Week 2 writing notes on self-awareness, self-regulation, and epistemic rigor in AI use.
+A writing project exploring self-awareness, self-regulation, and epistemic rigor in AI use.
 
-[Read the Week 2 page](https://shupac.github.io/metacognition-ai/).
+[Visit the site](https://shupac.github.io/metacognition-ai/).
 
-The page reproduces [Week2-condensed.md](Week2-condensed.md). GitHub Pages serves `index.html` from the root of `main`.
+## Posts
+
+- [Week 2: Condensed](https://shupac.github.io/metacognition-ai/posts/week-2/) — October 18, 2026. Source: [Week2-condensed.md](Week2-condensed.md).
+
+## Site structure
+
+GitHub Pages serves static files from the root of `main`.
+
+- `index.html`: homepage and post index.
+- `posts/<slug>/index.html`: individual posts.
+- `assets/style.css`: shared styles.
+
+To add a post, create its page under `posts/` and add a link to the homepage.

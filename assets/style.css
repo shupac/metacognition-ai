@@ -1,0 +1,23 @@
+:root { color-scheme: light dark; }
+body { margin: 0; background: #faf9f6; color: #252723; font-family: Georgia, serif; font-size: 19px; line-height: 1.65; }
+main { max-width: 720px; margin: 0 auto; padding: 64px 24px 80px; }
+h1, h2, h3 { line-height: 1.25; font-weight: 600; }
+h1 { font-size: clamp(2rem, 6vw, 3rem); margin: 0 0 40px; }
+h2 { font-size: 1.45rem; margin-top: 40px; }
+h3 { font-size: 1.15rem; margin-top: 30px; }
+ul { padding-left: 24px; }
+li { margin: 12px 0; }
+@media (prefers-color-scheme: dark) { body { background: #1d201d; color: #eeeee6; } }
+a { color: #326550; text-underline-offset: 4px; }
+a:hover { text-decoration-thickness: 2px; }
+nav { margin-bottom: 32px; font-family: system-ui, sans-serif; font-size: 0.9rem; }
+.post-list { list-style: none; padding: 0; }
+.post-list li { border-top: 1px solid #d6d8cf; padding: 24px 0; }
+.post-list h3 { margin: 8px 0; font-size: 1.35rem; }
+.post-list p { margin: 8px 0; }
+time { font-family: system-ui, sans-serif; font-size: 0.85rem; color: #62685f; }
+@media (prefers-color-scheme: dark) {
+  a { color: #a5d2b8; }
+  time { color: #b4bbae; }
+  .post-list li { border-color: #474e43; }
+}
